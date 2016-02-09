@@ -1,5 +1,12 @@
 <% provide(:title, "Home") %>
-<h1>Simple Rails App</h1>
-<p>
-Find more info about this app at <a href="https://github.com/Rodrigo33024/animated-rotary-phone">github</a>
-</p>
+
+<div class="text-center jumbotron">
+  <h1>Simple Rails App</h1>
+  <p>
+  Find more info about this app at <a href="https://github.com/Rodrigo33024/animated-rotary-phone">github</a>
+  </p>
+
+  <%= link_to "Sign up now!", "#", class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("logo.png", alt: "Rails logo"), 'http://rubyonrails.org' %>
