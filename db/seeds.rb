@@ -11,7 +11,9 @@ User.create!(
   email: "rodrigo33024@gmail.com",
   password: "foobar",
   password_confirmation: "foobar",
-  admin: true
+  admin: true,
+  activated: true,
+  activated_at: Time.zone.now
 )
 
 99.times do |n|
